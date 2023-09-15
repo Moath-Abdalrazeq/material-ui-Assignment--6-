@@ -5,15 +5,14 @@ import AccordionSwitch from "./components/AccordionSwitch";
 function App() {
   return (
     <div
-      className="App"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "80vh",
+        height: "100vh",
       }}
     >
-      <div style={{ width: "900px" }}>
+      <div>
         <AccordionArrow />
         <AccordionSwitch />
       </div>
